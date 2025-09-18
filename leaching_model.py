@@ -16,6 +16,7 @@ def simulate_leaching(ore_grade, acid_concentration, time_hours, temperature_cel
     """
     # Simple linear model for demonstration purposes
     # In a real scenario, this would be a complex kinetic model
+    # TODO: Consider adding more sophisticated mass transfer equations here.
     base_extraction = 0.1 * ore_grade
     acid_effect = 0.05 * acid_concentration
     time_effect = 0.02 * time_hours
